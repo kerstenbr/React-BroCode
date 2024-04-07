@@ -1,0 +1,38 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.list-category{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid white;
+  border-radius: 5px;
+  background-color: rgb(19, 58, 130);
+}
+
+.list-items li{
+  font-size: 2em;
+  list-style: none;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover{
+  background-color: rgb(9, 50, 90);
+  cursor: pointer;
+}
